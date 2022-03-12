@@ -3,7 +3,7 @@
     padding: 0;
 
 }
-/*common classes*/
+/*common classes*/ 
 html, body{
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif; 
@@ -70,7 +70,7 @@ html{
 }
 .header-text{
     text-align: center;
-    margin-top: 150px;
+    margin-top: 120px;
 }
 .header-text p{
     color: #dbdbdb;
@@ -287,7 +287,14 @@ nav .fa{
         width: 90%;
     }
     html{
-        font-size: 15px;
+        font-size: 14px;
+    }
+    /*this is header-section*/
+    .header-section{
+        height: 80vh;
+    }
+    .header-text h1{
+        font-size: 4.5rem;
     }
     /*this is footer-section*/
     .footer .flex-box{
@@ -305,7 +312,7 @@ nav .fa{
     }
     /*this is header-section*/
         .header-text h1{
-            font-size: 4.5rem;
+            font-size: 4rem;
         }
     /*this is section-1*/
         .section-1 .left p{
